@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>Registration</title>
+
+    <style>
+        body{
+            background: #333333 url("taxilogo.jpg") no-repeat fixed 50% 0%;
+        }
+    </style>
+
+    <style>
+        .form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -100px 0 0 -200px; /* отступы равны половинным размера формы */
+            z-index: 9999; /* чтобы форма была поверх всех элементов страницы */
+        }
+    </style>
+
+    <style>
+        .colortext {
+            color: #333333; /* Цвет текста */
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+<p>
+    <h3><br><br><p align="center" class="colortext"><u>Заповніть реєстраційну форму:</u></p></h3>
+
+<form action="/registration">
+
+    <div class="form">
+        <div class="colortext">
+            <table width="100%" cellspacing="0" cellpadding="4">
+
+                <tr>
+                    <td align="right" width="150">Ім'я:</td>
+                    <td><input type="text" name="name" maxlength="255" size="30"></td>
+                </tr>
+                <tr>
+                    <td align="right">Телефон:</td>
+                    <td><input type="text" name="phone" maxlength="255" size="30"></td>
+                </tr>
+                <tr>
+                    <td align="right">Пароль:</td>
+                    <td><input type="password" name="password" maxlength="255" size="30"></td>
+                </tr>
+
+            </table>
+        </div>
+        <br>
+</div>
+    <p align="center"> <input type="submit" value="Зареструватись"> </p>
+</form>
+
+
+</body>
+</html>
