@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a8fb38-50a4-418c-8053-ceb35bdf2749" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/resources/WEB-INF/taxilogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TaxiApp/TaxiApp.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TaxiApp/src/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/AppRun.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/AppTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/controller/ClientService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/controller/ClientServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/dao/AppDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/dao/ClientDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/exceptions/CancelOrderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/exceptions/ClientCreateException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/exceptions/ClientNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/exceptions/ClientReadAllException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/exceptions/ClientUpdateException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/exceptions/GetOrderInfoException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/exceptions/LoginException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/exceptions/MakeOrderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/exceptions/SubmitException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/model/Address.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/model/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/model/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/model/Driver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/model/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/types/CarType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/java/mytaxi/app/types/StatusType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/resources/WEB-INF/enter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/resources/WEB-INF/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/resources/WEB-INF/invitation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/main/resources/WEB-INF/registration.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/AppRun.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/AppRun.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/AppTests.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/AppTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/Application.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/controller/ClientService.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/controller/ClientService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/controller/ClientServiceImpl.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/controller/ClientServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/dao/AppDB.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/dao/AppDB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/dao/ClientDao.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/dao/ClientDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/exceptions/CancelOrderException.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/exceptions/CancelOrderException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/exceptions/ClientCreateException.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/exceptions/ClientCreateException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/exceptions/ClientNotFoundException.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/exceptions/ClientNotFoundException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/exceptions/ClientReadAllException.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/exceptions/ClientReadAllException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/exceptions/ClientUpdateException.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/exceptions/ClientUpdateException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/exceptions/GetOrderInfoException.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/exceptions/GetOrderInfoException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/exceptions/LoginException.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/exceptions/LoginException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/exceptions/MakeOrderException.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/exceptions/MakeOrderException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/exceptions/SubmitException.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/exceptions/SubmitException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/model/Address.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/model/Address.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/model/Car.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/model/Car.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/model/Client.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/model/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/model/Driver.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/model/Driver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/model/Order.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/model/Order.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/types/CarType.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/types/CarType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mytaxi/app/types/StatusType.java" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/java/mytaxi/app/types/StatusType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/enter.html" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/resources/WEB-INF/enter.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/index.html" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/resources/WEB-INF/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/invitation.html" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/resources/WEB-INF/invitation.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/registration.html" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/resources/WEB-INF/registration.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/WEB-INF/taxilogo.jpg" afterPath="$PROJECT_DIR$/src/TaxiApp/src/main/resources/WEB-INF/taxilogo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -130,21 +71,38 @@
           <expand>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -152,6 +110,8 @@
             </path>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -160,6 +120,8 @@
             </path>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -169,6 +131,8 @@
             </path>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -179,6 +143,8 @@
             </path>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -189,6 +155,8 @@
             </path>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -196,6 +164,8 @@
             </path>
             <path>
               <item name="TaxiService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxiService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TaxiApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -339,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527752349105</updated>
-      <workItem from="1527752372056" duration="1361000" />
+      <workItem from="1527752372056" duration="1924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1361000" />
+    <option name="totallyTimeSpent" value="1924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -354,11 +324,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5030257" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4901316" sideWeight="0.4969743" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24281392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
