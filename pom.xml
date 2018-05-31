@@ -5,7 +5,11 @@
 
     <groupId>org.springframework</groupId>
     <artifactId>gs-serving-web-content</artifactId>
+    <packaging>pom</packaging>
     <version>0.1.0</version>
+    <modules>
+        <module>Nazar</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
